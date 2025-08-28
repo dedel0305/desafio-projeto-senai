@@ -1,0 +1,43 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.texto-inova {
+  width: 900px;
+  padding-left: 30rem;
+/*   margin: 0 259px; */
+  font-size: 2.8rem;
+ /*  border: 2px solid red; */
+}
+
+.texto-inova p {
+    font-size: 1.2rem;
+    color: #5D5E5F;
+    width: 300px;
+    padding-top:1.2rem ;
+}
+
+.img-inova{
+width: 100%;
+height: auto;
+}
+
+.btn-inova {
+    margin-top: 2rem;
+    width: 253px;
+    height: 50px;
+    background-color: #2AAF3C;
+    color: #BEE6C3;
+    border: 0;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.btn-inova:hover{
+    background-color: #40B655;
+}
