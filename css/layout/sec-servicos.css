@@ -1,0 +1,33 @@
+.grid-servicos {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    justify-self: right;
+    text-align: center;
+    margin: 5rem auto;  
+}
+
+.titulo-servicos{
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 3rem;
+}
+
+.box-servicos {
+   
+    width: 200px;
+    padding: 20px;
+    margin: 0 8rem;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.box-servicos h3 {
+    padding-top: 8px;
+}
+
+.box-servicos p {
+    padding-top: 8px;
+}
