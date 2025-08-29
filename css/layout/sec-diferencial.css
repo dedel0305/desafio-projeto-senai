@@ -1,0 +1,23 @@
+.grid-difere {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+    
+}
+
+.texto-difere {
+    text-align: center;
+    padding-bottom: 5rem;
+    font-size: 2rem;
+}
+
+.box-difere {
+    width: 371px;
+    height: 136px;
+    box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.2);
+    margin: 5rem;
+    display: flex;
+}
